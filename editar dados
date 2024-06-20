@@ -1,0 +1,27 @@
+==>No Visual Studio Code (VSCode), você pode utilizar a funcionalidade de "Substituição Múltipla" (Multi Cursor) para adicionar aspas duplas em várias strings simultaneamente. Siga os passos abaixo:
+
+Abra o arquivo onde deseja adicionar as aspas duplas.
+
+Pressione Ctrl+Shift+L(no Windows/Linux) ou Cmd+Shift+L(no macOS) para entrar no modo de seleção de linhas. Você verá um cursor em cada linha.
+
+Agora, mova o cursor para a posição onde deseja adicionar as aspas duplas. Por exemplo, se quiser adicionar aspas no início de cada linha, mova o cursor para o início da linha.
+
+Pressione Ctrl+D(no Windows/Linux) ou Cmd+D(no macOS) repetidamente para selecionar todas as ocorrências do texto desejado. O VSCode adicionará um cursor em cada ocorrência.
+
+Digite "(aspas duplas) e todas as ocorrências selecionadas serão envolvidas por aspas duplas.
+
+Se desejar adicionar aspas duplas no final de cada linha, pressione uma tecla Endpara mover os cursores para o final das linhas e, em seguida, digite ".
+
+==> Alternativamente, você também pode usar a funcionalidade de "Substituição" (Replace) para adicionar aspas duplas em várias linhas:
+
+Pressione Ctrl+H(no Windows/Linux) ou Cmd+Shift+F(no macOS) para abrir a caixa de diálogo "Substituir".
+
+No campo "Localizar", insira o texto que deseja envolver com aspas duplas. Se quiser adicionar aspas para todas as linhas, deixe o campo vazio.
+
+No campo "Substituir por", insira "TEXTO", onde TEXTOestá o texto que deseja envolver com aspas duplas. Se deixou o campo "Localizar" vazio, basta digitar "$0".
+
+Marque a opção "Usar expressão regular", se disponível.
+
+Clique em “Substituir Tudo” ou “Substituir” para aplicar as alterações.
+
+Essas técnicas são úteis quando você precisa adicionar aspas duplas em várias cordas ao mesmo tempo, o que pode ser uma tarefa demorada se feita manualmente.
